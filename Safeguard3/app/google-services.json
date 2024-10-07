@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486060115867",
+    "project_id": "safeguard-e7495",
+    "storage_bucket": "safeguard-e7495.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486060115867:android:6c87bcf81522bff372833e",
+        "android_client_info": {
+          "package_name": "com.example.safeguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf1YjzR5rkE8L5EDPZ2GRAfQWwcm_xA7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
