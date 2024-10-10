@@ -1,0 +1,5 @@
+<style name="DarkBlueSwitch" parent="Theme.AppCompat.Light">
+    <item name="colorControlActivated">#1E88E5</item>  <!-- Blue when active -->
+    <item name="colorSwitchThumbNormal">#78909C</item>  <!-- Grey when inactive -->
+    <item name="android:colorForeground">#546E7A</item>  <!-- Dark grey for the track -->
+</style>

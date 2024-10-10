@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.YourAppName" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#909FBC</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#909FBC</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:colorBackground">#F0F2F7</item>
+        <item name="colorOnBackground">#2C3E50</item>
+        <item name="colorSurface">#F0F2F7</item>
+        <item name="colorOnSurface">#2C3E50</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">#909FBC</item>
+        <item name="colorSecondary">#6200EE</item>
+    </style>
+</resources>
