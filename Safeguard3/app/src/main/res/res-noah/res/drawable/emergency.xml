@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background with rounded corners -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+
+    <!-- EMERGENCY text -->
+    <item android:top="16dp" android:left="16dp" android:right="16dp">
+        <shape android:shape="rectangle">
+            <size android:height="24dp" />
+        </shape>
+    </item>
+
+    <!-- Device 3 has sensed a fall text -->
+    <item android:top="40dp" android:left="16dp" android:right="16dp">
+        <shape android:shape="rectangle">
+            <size android:height="20dp" />
+        </shape>
+    </item>
+
+    <!-- Enter Live feed button -->
+    <item android:top="80dp" android:left="16dp" android:right="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#8E8E93" />
+            <corners android:radius="8dp" />
+            <size android:height="40dp" />
+        </shape>
+    </item>
+
+    <!-- Call Authorities button -->
+    <item android:top="128dp" android:left="16dp" android:right="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#8E8E93" />
+            <corners android:radius="8dp" />
+            <size android:height="40dp" />
+        </shape>
+    </item>
+
+    <!-- Dismiss button -->
+    <item android:top="176dp" android:left="16dp" android:right="16dp" android:bottom="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#8E8E93" />
+            <corners android:radius="8dp" />
+            <size android:height="40dp" />
+        </shape>
+    </item>
+</layer-list>
