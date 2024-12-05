@@ -2,15 +2,14 @@ package com.example.safeguard;
 
 import android.os.Bundle;
 import android.widget.Toast;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.safeguard.databinding.ActivityMainBinding;
+import com.example.safeguard.databinding.ActivitySignInBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class SignInActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    private ActivitySignInBinding binding;
     private FirebaseAuth mAuth;
 
     @Override
@@ -18,19 +17,20 @@ public class SignInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Use view binding to inflate the layout
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
 
-        // Set up sign-in and registration button functionality
+        // Set up sign-in button functionality
         binding.signInButton.setOnClickListener(v -> {
             String email = binding.emailEditText.getText().toString();
             String password = binding.passwordEditText.getText().toString();
             signInWithEmail(email, password);
         });
 
+        // Set up registration button functionality
         binding.registerButton.setOnClickListener(v -> {
             String email = binding.emailEditText.getText().toString();
             String password = binding.passwordEditText.getText().toString();
