@@ -8,13 +8,31 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <!-- Background color -->
-    <color name="backgroundColor">#FFFFFF</color> <!-- White background -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White background -->\
+    <color name="light_blue">#B3E5FC</color> <!-- Light Blue for Background -->
+    <color name="dark_blue">#1976D2</color> <!-- Dark Blue for Device Status -->
 
     <!-- Text color -->
     <color name="textPrimary">#212121</color> <!-- Dark grey for text -->
 
     <!-- Button colors -->
     <color name="buttonPrimary">#6200EE</color> <!-- Primary button color (Purple) -->
-    <color name="buttonSecondary">#03DAC5</color> <!-- Secondary button color (Teal) -->
+    <color name="buttonSecondary">#03DAC5</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="text_primary">#000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="text_secondary">#9E9E9E</color>
+
+    <color name="text_highlight">#00796B</color> <!-- Muted greenish-blue for text -->
+    <color name="device_connected_color">#00796B</color> <!-- Greenish-blue -->
+    <color name="location_color">#D32F2F</color> <!-- Bold red -->
+    <color name="background_teal">#B2DFDB</color> <!-- Light teal background -->
+    <color name="button_teal">#004D40</color> <!-- Dark teal for button -->
+
+
+
+
+
 
 </resources>

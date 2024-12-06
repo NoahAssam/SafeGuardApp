@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="white">#FFFFFF</color>
+    <color name="buttonPrimary">#3F51B5</color>
     <color name="purple_200">#3244EF</color>
     <color name="purple_500">#0800EE</color>
     <color name="purple_700">#0027B3</color>
@@ -14,5 +16,13 @@
     <color name="switch_active">#1E88E5</color>
     <color name="switch_inactive">#78909C</color>
     <color name="switch_track">#546E7A</color>
+    <resources>
+        <color name="green">#4CAF50</color>
+        <color name="red">#F44336</color>
+        <color name="text_primary">#000000</color>
+        <color name="white">#FFFFFF</color>
+        <color name="background">#FFFFFF</color>
+    </resources>
+
 </resources>
 
